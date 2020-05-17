@@ -10,7 +10,7 @@ Anaconda Promptにペーストして実行する.
 すると、ダウンロードとインストールが完了する.
 >[PyTorch のインストール（Windows 上）https://www.kkaneko.jp/tools/win/pytorch.html](https://www.kkaneko.jp/tools/win/pytorch.html)
 
-#JupyterLabでPytorchがimoprtできずエラーになるときの対処法
+# JupyterLabでPytorchがimoprtできずエラーになるときの対処法
 Pytorchインストール完了後、実際にコードを動かそうとしてみたところ、  
 `No module named 'torch'`  
 と表示された.
