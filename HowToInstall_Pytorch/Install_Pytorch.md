@@ -13,7 +13,7 @@ Anaconda Promptにペーストして実行する.
 # JupyterLabでPytorchがimoprtできずエラーになるときの対処法
 Pytorchインストール完了後、実際にコードを動かそうとしてみたところ、  
 `No module named 'torch'`  
-と表示された.
-解決策としては、ANACONDA NAVIGATERからJupyterLabを開くことで、  
+と表示された.  
+このエラーの解決策としては、ANACONDA NAVIGATERからJupyterLabを開くことで、  
 このエラーは表示されずに動作した.
 >[ModuleNotFoundError: No module named 'torch' #4827 https://github.com/pytorch/pytorch/issues/4827](https://github.com/pytorch/pytorch/issues/4827)
