@@ -5,7 +5,7 @@
 このとき、CUDAはNVIDIAのGPUの有無(バージョン確認)を訪ねているので、  
 PCに搭載されている場合はバージョンの確認を行い、対応するバージョンを選択し、  
 NVIDIAのGPU(対応するもの)がない場合にはNoneを選択する.
-2.上記の選択が終了したら、下部に記してあるコマンドをコピーし、  
+1. 上記の選択が終了したら、下部に記してあるコマンドをコピーし、  
 Anaconda Promptにペーストして実行する.  
 すると、ダウンロードとインストールが完了する.
 >[PyTorch のインストール（Windows 上）https://www.kkaneko.jp/tools/win/pytorch.html](https://www.kkaneko.jp/tools/win/pytorch.html)
