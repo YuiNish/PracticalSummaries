@@ -1,7 +1,7 @@
 # Pytorchのインストール(Win10)
 1. まずはじめに、[Pyorch](https://pytorch.org/)にアクセスする.  
 すると、ここで以下のような画面が現れる.  
-![pytorchダウンロード方法選択画面]()  
+![pytorchダウンロード方法選択画面](https://github.com/YuiNish/PracticalSummaries/blob/master/HowToInstall_Pytorch/pytorch_screenshot.png)  
 このとき、CUDAはNVIDIAのGPUの有無(バージョン確認)を訪ねているので、  
 PCに搭載されている場合はバージョンの確認を行い、対応するバージョンを選択し、  
 NVIDIAのGPU(対応するもの)がない場合にはNoneを選択する.
