@@ -5,30 +5,30 @@
 1. nslookup
 コマンドラインで`apt-get install dnsutils`を実行する.  
 以下実行結果の例  
-`root@999999999999:/# apt-get install dnsutils  
-Reading package lists... Done  
-Building dependency tree  
-Reading state information... Done  
-The following additional packages will be installed:  
-  bind9-host geoip-database krb5-locales libbind9-160 libdns1100 libgeoip1 libgssapi-krb5-2 libicu60 libirs160 libisc169 libisccc160   libisccfg160 libjson-c3 libk5crypto3 libkeyutils1  
-  libkrb5-3 libkrb5support0 liblwres160 libssl1.1 libxml2  
-Suggested packages:  
-  rblcheck geoip-bin krb5-doc krb5-user  
-The following NEW packages will be installed:  
-  bind9-host dnsutils geoip-database krb5-locales libbind9-160 libdns1100 libgeoip1 libgssapi-krb5-2 libicu60 libirs160 libisc169   libisccc160 libisccfg160 libjson-c3 libk5crypto3 libkeyutils1  
-  libkrb5-3 libkrb5support0 liblwres160 libssl1.1 libxml2  
-0 upgraded, 21 newly installed, 0 to remove and 16 not upgraded.  
-Need to get 14.3 MB of archives.  
-After this operation, 54.5 MB of additional disk space will be used.  
-Do you want to continue? [Y/n] y  
-Get:1 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libicu60 amd64 60.2-3ubuntu3.1 [8054 kB]  
-Get:2 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libjson-c3 amd64 0.12.1-1.3ubuntu0.3 [21.7 kB]  
-Get:3 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libssl1.1 amd64 1.1.1-1ubuntu2.1~18.04.6 [1301 kB]  
-～略～  
-Setting up libbind9-160:amd64 (1:9.11.3+dfsg-1ubuntu1.12) ...  
-Setting up bind9-host (1:9.11.3+dfsg-1ubuntu1.12) ...  
-Setting up dnsutils (1:9.11.3+dfsg-1ubuntu1.12) ...  
-Processing triggers for libc-bin (2.27-3ubuntu1) ...`
+`root@999999999999:/# apt-get install dnsutils`  
+`Reading package lists... Done`  
+`Building dependency tree`  
+`Reading state information... Done`  
+`The following additional packages will be installed:`  
+  `bind9-host geoip-database krb5-locales libbind9-160 libdns1100 libgeoip1 libgssapi-krb5-2 libicu60 libirs160 libisc169 libisccc160   libisccfg160 libjson-c3 libk5crypto3 libkeyutils1`  
+  `libkrb5-3 libkrb5support0 liblwres160 libssl1.1 libxml2`  
+`Suggested packages:`  
+  `rblcheck geoip-bin krb5-doc krb5-user`  
+`The following NEW packages will be installed:`  
+  `bind9-host dnsutils geoip-database krb5-locales libbind9-160 libdns1100 libgeoip1 libgssapi-krb5-2 libicu60 libirs160 libisc169   libisccc160 libisccfg160 libjson-c3 libk5crypto3 libkeyutils1`  
+  `libkrb5-3 libkrb5support0 liblwres160 libssl1.1 libxml2`  
+`0 upgraded, 21 newly installed, 0 to remove and 16 not upgraded.`  
+`Need to get 14.3 MB of archives.`  
+`After this operation, 54.5 MB of additional disk space will be used.`  
+`Do you want to continue? [Y/n] y`  
+`Get:1 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libicu60 amd64 60.2-3ubuntu3.1 [8054 kB]`  
+`Get:2 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libjson-c3 amd64 0.12.1-1.3ubuntu0.3 [21.7 kB]`  
+`Get:3 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libssl1.1 amd64 1.1.1-1ubuntu2.1~18.04.6 [1301 kB]`  
+`～略～`  
+`Setting up libbind9-160:amd64 (1:9.11.3+dfsg-1ubuntu1.12) ...`  
+`Setting up bind9-host (1:9.11.3+dfsg-1ubuntu1.12) ...`  
+`Setting up dnsutils (1:9.11.3+dfsg-1ubuntu1.12) ...`  
+`Processing triggers for libc-bin (2.27-3ubuntu1) ...`
 1. curl
 コマンドラインで`apt-get install curl`を実行する.  
 以下実行結果の例  
