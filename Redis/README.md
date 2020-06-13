@@ -3,7 +3,7 @@ Redisについて色々記録を残しておく.
 
 ## WindowsにRedisを導入
 microsoft公式のGitHubからインストール可  
-インストーラ→Redis-x64-3.X.XXX.msi  
+インストーラの例→Redis-x64-3.X.XXX.msi  
 [microsoftarchive/redis](https://github.com/microsoftarchive/redis/releases)
 
 ## Redisモジュールのインストール
