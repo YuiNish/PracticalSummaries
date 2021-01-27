@@ -4,14 +4,10 @@
 | 正解<br>Negative | 偽陽性<br>FP(False Positive) | 真陰性<br>TN(True Negative) |
 
 
-* Precision : 適合率
-Positiveと予測したもののうち、正解した割合
-```math
-\frac{TP}{TP+FP}
-```
+* Precision : 適合率  
+Positiveと予測したもののうち、正解した割合  
+$`\frac{TP}{TP+FP}`$
 
-* Recall : 再現率
-正解がpositiveのもののうち、予測したものもPositiveであったときの割合
-```math
-\frac{TP}{TP+FN}
-```
+* Recall : 再現率  
+正解がpositiveのもののうち、予測したものもPositiveであったときの割合  
+`$\frac{TP}{TP+FN}`$
