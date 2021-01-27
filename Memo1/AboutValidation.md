@@ -5,9 +5,9 @@
 
 
 * Precision : 適合率  
-Positiveと予測したもののうち、正解した割合  
-$`\frac{TP}{TP+FP}`$
+Positiveと予測したもののうち、正解した割合
+$$ \frac{TP}{TP+FP} $$
 
 * Recall : 再現率  
-正解がpositiveのもののうち、予測したものもPositiveであったときの割合  
-`$\frac{TP}{TP+FN}`$
+正解がpositiveのもののうち、予測したものもPositiveであったときの割合
+$$ \frac{TP}{TP+FN} $$
