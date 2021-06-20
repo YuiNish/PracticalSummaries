@@ -4,15 +4,15 @@
 |3Hz-30Hz|100000km-10000km|ELF:Extremely Low Frequency|
 |30Hz-300Hz|10000km-1000km|SLF:Super Low Frequency|
 |300Hz-3kHz|1000km-100km|ULF:Ultra Low Frequency|
-|3kHz-30kHz|100km-10km|VLF:超長波<br>Very Low Frequency|
-|30kHz-300kHz|10km-1km|LF:長波<br>Low Frequency|
-|300kHz-3MHz|1km-100m|MF:中波<br>Medium Frequency|
-|3MHz-30MHz|100m-10m|HF:短波<br>High Frequency|
-|30MHz-300MHz|10m-1m|VHF:超短波<br>Very High Frequency|
-|300MHz-3GHz|1m-10cm|UHF:極超短波<br>Ultra High Frequency|
-|3GHz-30GHz|10cm-1cm|SHF:マイクロ波<br>Super High Frequency|
-|30GHz-300GHz|1cm-1mm|EHF:ミリ波<br>Extra High Frequency|
-|300GHz-3THz|1mm-0.1mm|THz,THF:サブミリ波<br>Terahertz,<br>Tremendously high frequency|
+|3kHz-30kHz|100km-10km|超長波<br>VLF:Very Low Frequency|
+|30kHz-300kHz|10km-1km|長波<br>LF:Low Frequency|
+|300kHz-3MHz|1km-100m|中波<br>MF:Medium Frequency|
+|3MHz-30MHz|100m-10m|短波<br>HF:High Frequency|
+|30MHz-300MHz|10m-1m|超短波<br>VHF:Very High Frequency|
+|300MHz-3GHz|1m-10cm|極超短波<br>UHF:Ultra High Frequency|
+|3GHz-30GHz|10cm-1cm|マイクロ波<br>SHF:Super High Frequency|
+|30GHz-300GHz|1cm-1mm|ミリ波<br>EHF:Extra High Frequency|
+|300GHz-3THz|1mm-0.1mm|サブミリ波<br>THz,THF:Terahertz,<br>Tremendously high frequency|
 
 ## IEEEマイクロ波周波数帯分類
 |周波数\[GHz\]|波長|名称|
