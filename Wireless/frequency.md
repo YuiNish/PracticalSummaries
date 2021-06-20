@@ -14,6 +14,8 @@
 |30GHz-300GHz|1cm-1mm|ミリ波<br>EHF:Extra High Frequency|
 |300GHz-3THz|1mm-0.1mm|サブミリ波<br>THz,THF:Terahertz,<br>Tremendously high frequency|
 
+---
+
 ## IEEEマイクロ波周波数帯分類
 |周波数\[GHz\]|波長|名称|
 |:--:|:--:|:--:|
