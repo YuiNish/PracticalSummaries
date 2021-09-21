@@ -15,7 +15,6 @@ Windows 10 pro, power shell, Ubuntu
 4.2パターンのログイン方法  
     1.power shellでログイン
     `docker exec -it postgres_volume psql -U postgres`を入力するとログイン可.
-  
     2.Ubuntuでログイン
     `psql -h 127.0.0.1 -U postgres`を入力し実行して,パスワード入力しログイン.
 
