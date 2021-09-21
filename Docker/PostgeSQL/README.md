@@ -13,9 +13,9 @@ Windows 10 pro, power shell, Ubuntu
 ポート指定とマウントを忘れないように注意する.
 
 4. 2パターンのログイン方法
-  1. power shellでログイン
+    1. power shellでログイン
     `docker exec -it postgres_volume psql -U postgres`を入力するとログイン可.
-  2. Ubuntuでログイン
+    2. Ubuntuでログイン
     `psql -h 127.0.0.1 -U postgres`を入力し実行して,パスワード入力しログイン.
 
 恐らく言葉の意味や使い方がかなり無茶苦茶なので,そこはご容赦ください...
