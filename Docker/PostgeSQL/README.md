@@ -12,7 +12,7 @@ Windows 10 pro, power shell, Ubuntu
 `docker run -p 5432:5432/tcp --name [コンテナ名：ここでは例としてpostgres_volume2] -e POSTGRES_PASSWORD=mypostgres -d -v postgres_data:/var/lib/postgresql/ postgres`をpower shellで入力.  
 ポート指定とマウントを忘れないように注意する.  
 
-4.2パターンのログイン方法
+4.2パターンのログイン方法  
   1.power shellでログイン
   `docker exec -it postgres_volume psql -U postgres`を入力するとログイン可.
   
