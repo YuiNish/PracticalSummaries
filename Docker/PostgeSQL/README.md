@@ -17,5 +17,8 @@ Windows 10 pro, power shell, Ubuntu
     `docker exec -it postgres_volume psql -U postgres`を入力するとログイン可.
     2. Ubuntuでログイン
     `psql -h 127.0.0.1 -U postgres`を入力し実行して,パスワード入力しログイン.
+5. docker run & stop
+コンテナを停止させるときは, `docker stop [コンテナ名]`で停止する.  
+コンテナ動かすときは, `docker start [コンテナ名]`で動作開始.
 
 恐らく言葉の意味や使い方がかなり無茶苦茶なので,そこはご容赦ください...
