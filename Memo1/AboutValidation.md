@@ -6,7 +6,7 @@
 * Accuracy : 正解率  
 全予測および全正解のうち、正解したものの割合
 ```math
-\frac{TP+TN}{TP+TN+FP+FN}
+![formula](https://render.githubusercontent.com/render/math?math=\frac{TP%2BTN}{TP%2BTN%2BFP%2BFN})
 ```
 
 * Precision : 適合率  
