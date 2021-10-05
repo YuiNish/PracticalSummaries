@@ -22,3 +22,9 @@ Windows 10 pro, power shell, Ubuntu
 コンテナ動かすときは, `docker start [コンテナ名]`で動作開始.
 
 恐らく言葉の意味や使い方がかなり無茶苦茶なので,そこはご容赦ください...
+
+# pythonでpostgreSQLに接続して動かす
+1. psycopg2をインストールする.
+`pip install psycopg2`でpsycopg2をインストール. エラーが出た場合, `pip install psycopg2-binary`を試してみる.
+2. flaskのインストール
+`pip install flask`でインストール.
