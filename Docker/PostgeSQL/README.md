@@ -6,7 +6,7 @@ Windows 10 pro, power shell, Ubuntu
 `docker pull postgres`をpower shellで入力する.
 
 2. PostgreSQLの永続化
-`docker create volume [適当な名前：ここでは例としてpostgres_data]`でvolume作成(power shell).
+`docker volume create [適当な名前：ここでは例としてpostgres_data]`でvolume作成(power shell).
 
 3. run
 `docker run -p 5432:5432/tcp --name [コンテナ名：ここでは例としてpostgres_volume2] -e POSTGRES_PASSWORD=mypostgres -d -v postgres_data:/var/lib/postgresql/ postgres`をpower shellで入力.  
