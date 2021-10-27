@@ -28,3 +28,22 @@ Windows 10 pro, power shell, Ubuntu
 `pip install psycopg2`でpsycopg2をインストール. エラーが出た場合, `pip install psycopg2-binary`を試してみる.
 2. flaskのインストール
 `pip install flask`でインストール.
+
+# psycopg2でDATABASE CREATE
+jupyterでどうぞ.  
+`import psycopg2
+from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
+
+host = 'localhost'
+port = 5432
+dbuser = 'postgres'
+dbpass = 'mypostgres'
+
+con = psycopg2.connect(host=host, port=port, user=dbuser, password=dbpass)
+
+cursor = con.cursor()
+con.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
+cursor.execute("CREATE DATABASE test2")
+
+cursor.close()
+connection.close()`
