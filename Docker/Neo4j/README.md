@@ -8,4 +8,5 @@ __localhost:7474/browser__ をブラウザで入力して接続すると, ログ
 `pip install neo4j`でインストール可.
 
 ### Neo4jで表示させてみたグラフ
+jsonやcsv形式でも保存できるようです.
 ![Neo4jのグラフ](https://github.com/YuiNish/PracticalSummaries/blob/master/Docker/Neo4j/graph.png)
