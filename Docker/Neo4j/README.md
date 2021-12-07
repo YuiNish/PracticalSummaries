@@ -6,3 +6,6 @@ localhost:7474/browserをブラウザで入力して接続すると, ログイ�
 
 ### Neo4j python ドライバ
 `pip install neo4j`でインストール可.
+
+### Neo4jで表示させてみたグラフ
+![Neo4jのグラフ](https://github.com/YuiNish/PracticalSummaries/blob/master/Docker/Neo4j/graph.png)
