@@ -1,4 +1,5 @@
 # Dockerについて色々記録
+Dockerについて学習したことをmemo.
 
 ## DockerfileとDocker compose
 Dockerfileはimageを作成. Docker composeはコンテナから環境まで一括で作成可.
