@@ -5,11 +5,13 @@ Dockerについて学習したことをmemo.
 Dockerfileはimageを作成. Docker composeはコンテナから環境まで一括で作成可.
 
 ## volume
-* bind
-bindマウントは, Docker Engine外のマシン上のディレクトリ上にマウントする.
-
-* volume
-volumeマウントは, Docker Engine管理の範囲内にvolumeを作成し, ディスクとしてマウントする.
+* bind  
+bindマウントは, Docker Engine外のマシン上のディレクトリ上にマウントする.  
+`docker run [~~] -v [記憶域path]:[コンテナの記憶域path]`
+  
+* volume  
+volumeマウントは, Docker Engine管理の範囲内にvolumeを作成し, ディスクとしてマウントする.  
+`docker run[~~] -v [ボリューム名]:[コンテナの記憶域path]`
 
 ### memo
 Dockerでサーバを立ててみて -> 起動後にしばらくの間, 思ったような挙動をしないことがある?  
