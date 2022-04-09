@@ -11,7 +11,7 @@ bindマウントは, Docker Engine外のマシン上のディレクトリ上に�
   
 * volume  
 volumeマウントは, Docker Engine管理の範囲内にvolumeを作成し, ディスクとしてマウントする.  
-`docker run[~~] -v [ボリューム名]:[コンテナの記憶域path]`
+`docker run [~~] -v [ボリューム名]:[コンテナの記憶域path]`
 
 ### memo
 Dockerでサーバを立ててみて -> 起動後にしばらくの間, 思ったような挙動をしないことがある?  
