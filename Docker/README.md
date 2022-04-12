@@ -14,7 +14,9 @@ volumeマウントは, Docker Engine管理の範囲内にvolumeを作成し, デ
 `docker run [~~] -v [ボリューム名]:[コンテナの記憶域path]`
 
 ## docker run
-option
+docker runはdocker createとdocker startを一体化したものだそう.
+
+* option  
 
 | option | 内容 |
 | :---: | :---: |
