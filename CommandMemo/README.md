@@ -80,7 +80,7 @@ Linux系の使っていくことが多そうなコマンドのまとめです.
 |-x|アーカイブを展開|
 
 ## nvidia-smi
-'nvidia-smi'でGPUの利用状況を見ることができる.  
+`nvidia-smi`でGPUの利用状況を見ることができる.  
 
 ## free
 'free'  
